@@ -19,6 +19,6 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hjs')
 
 
-app.listen(5000)
+app.listen(80)
 console.log('Server running on http://localhost:5000 -Its working!')
 console.log(process.env.DB_HOST)
